@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10; 
 
 
@@ -5,8 +6,8 @@ contract PiggyBank {
 
     address owner; 
     uint target;
-    uint value = 0;
     uint endDate;
+    uint value = 0;
 
 
     // Initialise the contract 
